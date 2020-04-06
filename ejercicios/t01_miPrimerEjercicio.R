@@ -1,0 +1,17 @@
+opBasic = function(a,b){
+  print("Suma")
+  print(paste(sprintf("%i + %i = ", a, b), a+b))
+  print("Resta")
+  print(paste(sprintf("%i - %i = ", a, b), a-b))
+  print(paste(sprintf("%i - %i = ", b, a), b-a))
+  print("Producto")
+  print(paste(sprintf("%i * %i = ", a, b), a*b))
+  print("División")
+  print(paste(sprintf("%i / %i = ", a, b), a/b))
+  print(paste(sprintf("%i / %i = ", b, a), b/a))
+  print("Cociente división entera")
+  print(paste(sprintf("%i : %i = ", a, b), a%/%b))
+  print(paste("con resto ", a%%b))
+  print(paste(sprintf("%i : %i = ", b, a), b%/%a))
+  print(paste("con resto ", b%%a))
+}
